@@ -33,12 +33,20 @@ func main() {
     }
 
     fmt.Println("ID:", info.ID)
+    
     fmt.Println("Title:", info.Title)
+    
     fmt.Println("Price:", info.Price)
+    
     fmt.Println("Quantity:", info.Quantity)
+    
     fmt.Println("Total:", info.Total)
+    
     fmt.Println("DiscountPercentage:", info.DiscountPercentage)
+    
     fmt.Println("DiscountedPrice:", info.DiscountedPrice)
+    
     fmt.Println("Thumbnail:", info.Thumbnail)
+    
     fmt.Println("CreatedAt:", info.CreatedAt.Format("02/01 15:04:05 2006"))
 }
